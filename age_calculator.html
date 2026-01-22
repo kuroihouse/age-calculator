@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>age calculator</title>
+		<link
+			rel="stylesheet"
+			href="node_modules/vanillajs-datepicker/dist/css/datepicker.css" />
+		<style>
+			body {
+				background-color: #fcf7ec;
+				text-align: center;
+				font-family: monospace;
+				margin-top: 17em;
+				font-size: 1.5em;
+				color: #5a3729;
+			}
+			h2 {
+				font-size: 1em;
+			}
+			#dateBox {
+				padding: 0;
+				border-radius: 0.3em;
+				height: 2.5em;
+				border-color: #362017;
+				border-style: hidden;
+			}
+			button {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Age Calculator</h1>
+		<h2>Enter your birthdate below:</h2>
+		<input type="text" id="dateBox" placeholder="Select or enter a date.." />
+		<h3>
+			You are
+			<p id="date"><b></b></p>
+			years old!
+		</h3>
+
+		<script src="script.js" type="module"></script>
+	</body>
+</html>
